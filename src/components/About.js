@@ -44,7 +44,7 @@ const images = [
 
 function About() {
   return (
-    <div className='mb-40 lg:mb-20'>
+    <div className='mb-40 lg:mb-20 lg:mx-10'>
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center gap-12 mt-10  mx-4 lg:mx-6 ">
         <div className="text-center md:text-left md:w-1/2">
