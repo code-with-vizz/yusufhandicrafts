@@ -58,7 +58,7 @@ const Contact = () => {
             whileInView="visible"
             transition={{ duration: 1, delay: 0.1 }}
             viewport={{ once: true }}
-            className="w-[270px] md:w-3/5 lg:w-3/4 bg-white p-6 md:p-8 xl:p-10 rounded-lg shadow-lg z-20"
+            className="w-auto md:w-3/5 lg:w-3/4 bg-white p-6 md:p-8 xl:p-10 rounded-lg shadow-lg z-20"
           >
             <h2 className="mb-6 text-2xl md:text-3xl font-semibold text-black">
               Send a message
