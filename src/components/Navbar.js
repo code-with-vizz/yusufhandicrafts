@@ -19,8 +19,9 @@ const Navbar = () => {
       <div className="flex items-center space-x-6 text-zinc-800 md:flex md:space-x-6">
         <FaBars className="text-xl cursor-pointer font-normal md:hidden" onClick={toggleMobileMenu} />
         <div className="hidden md:flex md:space-x-6">
+          <Link to="/rooms" className="text-lg hover:underline text-zinc-600">Home</Link>
           <Link to="/products" className="text-lg hover:underline text-zinc-600">Products</Link>
-          <Link to="/rooms" className="text-lg hover:underline text-zinc-600">Rooms</Link>
+         
           <Link to="/about" className="text-lg hover:underline text-zinc-600">About us</Link>
         </div>
       </div>
@@ -31,9 +32,10 @@ const Navbar = () => {
               <FaTimes />
             </button>
           </div>
-          <nav className="flex flex-col space-y-4 p-4">
+          <nav className="flex flex-col space-y-4 p-4">\
+          <Link to="/rooms" className="text-lg text-zinc-800 hover:text-zinc-600" onClick={toggleMobileMenu}>Home</Link>
             <Link to="/products" className="text-lg text-zinc-800 hover:text-zinc-600" onClick={toggleMobileMenu}>Products</Link>
-            <Link to="/rooms" className="text-lg text-zinc-800 hover:text-zinc-600" onClick={toggleMobileMenu}>Rooms</Link>
+           
             <Link to="/about" className="text-lg text-zinc-800 hover:text-zinc-600" onClick={toggleMobileMenu}>About us</Link>
           </nav>
         </div>
