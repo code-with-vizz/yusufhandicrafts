@@ -22,7 +22,7 @@ const App = () => {
         <SetToTop />
         <div className="flex-grow ">  {/* Adjust the top padding to match the Navbar height */}
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<Rooms />} />
             <Route path="/rooms" element={<Rooms />} />
             <Route path="/home" element={<Home />} />
             <Route path="/dinningroom" element={<Dinningroom />} />
