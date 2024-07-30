@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between p-4 shadow-md px-4 md:px-14">
       <div className="flex items-center space-x-6">
         <Link  to="/rooms">
-        <img  src={logo} alt="Logo" className="h-10 w-auto cursor-pointer "/>
+        <img  src={logo} alt="Logo" className="h-10 w-auto lg:w-[300px] cursor-pointer "/>
        </Link> {/* Responsive logo */}
       </div>
       <div className="flex items-center space-x-6 text-zinc-800 md:flex md:space-x-6">
@@ -34,7 +34,7 @@ const Navbar = () => {
               <FaTimes />
             </button>
           </div>
-          <nav className="flex flex-col space-y-4 p-4">\
+          <nav className="flex flex-col space-y-4 p-4">
           <Link to="/rooms" className="text-lg text-zinc-800 hover:text-zinc-600" onClick={toggleMobileMenu}>Home</Link>
             <Link to="/products" className="text-lg text-zinc-800 hover:text-zinc-600" onClick={toggleMobileMenu}>Products</Link>
            
