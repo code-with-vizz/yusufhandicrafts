@@ -35,7 +35,7 @@ const description = [
 ];
 
 const images = [
-  { src: {about4}, alt: "Home offices" },
+  { src: about4, alt: "Home offices" },
   { src: 'https://i.pinimg.com/474x/1d/f6/d4/1df6d4c4d66050a7d5db4505010d4fd1.jpg', alt: "Home offices" },
   { src: 'https://i.pinimg.com/236x/95/06/56/9506569c0ecedbc789d70f837505a9b3.jpg', alt: "Home offices" },
   { src: 'https://i.pinimg.com/564x/ae/a5/5f/aea55ff5efcc86d6e35f26995519852c.jpg', alt: "Home offices" },
