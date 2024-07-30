@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="flex flex-wrap justify-between lg:justify-between lg:gap-0 ">
               <div className="w-full lg:w-1/4 text-base lg:text-lg font-normal grid grid-row-4">
                 <Link to="/rooms" className="mb-2 mt-2">
-                  Rooms
+                  Home
                 </Link>
                 <Link to="/products" className="mb-2 ">
                   Products
