@@ -1,5 +1,5 @@
 import React from 'react';
-import room from './assets/room.mp4';
+import room from './assets/yusuf.mp4';
 import stand1 from './assets/almirah/stand1.jpg';
 import stand2 from './assets/almirah/stand2.jpg';
 import stand3 from './assets/almirah/stand3.jpg';
