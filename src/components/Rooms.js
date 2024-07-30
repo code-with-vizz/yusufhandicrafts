@@ -21,7 +21,7 @@ const Rooms = () => {
     <>
       <div className="relative h-[40vh] md:h-[60vh] mx-[3%] my-4 lg:my-[7%]">
         <video
-          className="absolute top-0 left-0 w-full h-full object-fit"
+          className="absolute top-0 left-0 w-full h-full object-cover"
           src={room}
           autoPlay
           loop
