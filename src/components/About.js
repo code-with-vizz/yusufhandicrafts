@@ -79,23 +79,26 @@ function About() {
       </div>
 
       {/* About Us Section */}
-      <div className='flex flex-col md:flex-row items-start gap-12 mx-4 mt-12 lg:mt-2'>
-        <div className='md:w-1/2 w-full lg:w-full lg:mx-[10%] lg:mt-[2%]'>
-          <h1 className='text-3xl md:text-4xl font-bold'>About Us</h1>
-          <p className='mt-4 text-base md:text-lg'>
-            Welcome to Yusuf Handicrafts, where tradition meets innovation. With over 25 years of excellence in manufacturing, we have established ourselves as a leading name in the industry, known for our commitment to quality and craftsmanship.
-            <br /><br />
-            Our journey began with a vision to bring the rich heritage of handcrafted products to the world. Over the years, we have honed our skills and expanded our expertise, working with a large number of prestigious companies globally. This experience has enabled us to perfect our processes and deliver products that are not only beautiful but also of the highest quality.
-            <br /><br />
-            At Yusuf Handicrafts, we believe in the power of craftsmanship. Each piece we create is a testament to the dedication and skill of our artisans, who pour their heart and soul into every detail. Our diverse range of products showcases the rich cultural heritage of our craft, blending traditional techniques with contemporary designs to meet the evolving tastes of our global clientele.
-            <br /><br />
-            We take pride in our ability to cater to the unique needs of our customers, offering customized solutions that reflect their vision and style. Our commitment to excellence extends beyond our products to our customer service, ensuring a seamless experience from the moment you reach out to us.
-            <br /><br />
-            Join us on this journey of creativity and tradition. Discover the world of Yusuf Handicrafts and experience the art of true craftsmanship.
-          </p>
-          <Link to='/rooms' className='py-2 border border-zinc-900 rounded-3xl flex items-center justify-center  font-normal mt-6 w-40 md:w-[8vw]'>Services </Link>
-        </div>
-      </div>
+   <div className='flex flex-col md:flex-row items-start gap-6 md:gap-12 mx-4 md:mx-20 mt-8 md:mt-12'>
+  <div className='w-full md:w-1/2 lg:w-1/2'>
+    <h1 className='text-2xl md:text-3xl lg:text-4xl font-bold'>About Us</h1>
+    <p className='mt-4 text-base md:text-lg'>
+      Welcome to Yusuf Handicrafts, where tradition meets innovation. With over 25 years of excellence in manufacturing, we have established ourselves as a leading name in the industry, known for our commitment to quality and craftsmanship.
+      <br /><br />
+      Our journey began with a vision to bring the rich heritage of handcrafted products to the world. Over the years, we have honed our skills and expanded our expertise, working with a large number of prestigious companies globally. This experience has enabled us to perfect our processes and deliver products that are not only beautiful but also of the highest quality.
+      <br /><br />
+      At Yusuf Handicrafts, we believe in the power of craftsmanship. Each piece we create is a testament to the dedication and skill of our artisans, who pour their heart and soul into every detail. Our diverse range of products showcases the rich cultural heritage of our craft, blending traditional techniques with contemporary designs to meet the evolving tastes of our global clientele.
+      <br /><br />
+      We take pride in our ability to cater to the unique needs of our customers, offering customized solutions that reflect their vision and style. Our commitment to excellence extends beyond our products to our customer service, ensuring a seamless experience from the moment you reach out to us.
+      <br /><br />
+      Join us on this journey of creativity and tradition. Discover the world of Yusuf Handicrafts and experience the art of true craftsmanship.
+    </p>
+    <Link to='/rooms' className='py-2 border border-zinc-900 rounded-3xl flex items-center justify-center font-normal mt-6 w-32 md:w-40'>Services</Link>
+  </div>
+  <div className='w-full md:w-1/2 lg:w-1/2 lg:h-[80vh] lg:mt-14'>
+    <img src={about4} alt='about44' className='w-full h-auto lg:h-full object-cover' />
+  </div>
+</div>
 
       {/* Description Swiper Section */}
       <div className="flex items-center justify-center mt-12 px-4">
