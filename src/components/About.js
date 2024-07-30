@@ -95,7 +95,7 @@ function About() {
     </p>
     <Link to='/rooms' className='py-2 border border-zinc-900 rounded-3xl flex items-center justify-center font-normal mt-6 w-32 md:w-40'>Services</Link>
   </div>
-  <div className='w-full md:w-1/2 lg:w-1/2 lg:h-[80vh] lg:mt-14'>
+  <div className='w-full md:w-1/2 lg:w-1/2 lg:h-[80vh] lg:mt-20'>
     <img src={about4} alt='about44' className='w-full h-auto lg:h-full object-cover' />
   </div>
 </div>
