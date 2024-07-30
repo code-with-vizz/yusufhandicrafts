@@ -27,12 +27,7 @@ const Rooms = () => {
           loop
           muted
         ></video>
-//         <div className="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50">
-//           <div className="text-center text-white">
-//             <h1 className="text-3xl md:text-6xl font-bold mb-4">Personalized Iron Furniture Solutions</h1>
-//             <p className="text-xs md:text-lg font-semibold">
-// Experience bespoke furniture crafted to your exact specifications, delivered on demand.            </p>
-//           </div>
+
         </div>
       </div>
       <div className="container mx-auto p-4 text-[#1d1d1b]">
