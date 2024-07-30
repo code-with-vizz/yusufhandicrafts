@@ -29,10 +29,9 @@ const Rooms = () => {
         ></video>
         <div className="relative z-10 flex items-center justify-center h-full bg-black bg-opacity-50">
           <div className="text-center text-white">
-            <h1 className="text-3xl md:text-6xl font-bold mb-4">Rooms</h1>
+            <h1 className="text-3xl md:text-6xl font-bold mb-4">Personalized Iron Furniture Solutions</h1>
             <p className="text-xs md:text-lg font-semibold">
-              Discover our many rooms and find your specific style if it be retro, japandi or minimalistic. <br /> Pick a room designed to your wishes. Because the more you it is. The more extraordinary it is.
-            </p>
+Experience bespoke furniture crafted to your exact specifications, delivered on demand.            </p>
           </div>
         </div>
       </div>
