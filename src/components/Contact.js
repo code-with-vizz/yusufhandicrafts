@@ -127,7 +127,7 @@ const Contact = () => {
                 <h3 className="text-lg font-medium text-black mb-2">
                   Our Location
                 </h3>
-                <p>Rai Ka Bagh Old Police Line MIA Phase 2, Basni H-676</p>
+                <p>Rai Ka Bagh Old Police Line MIA Phase 2, Basni H-676 , Jodhpur , Rajasthan</p>
               </div>
               <div>
                 <h3 className="text-lg font-medium text-black mb-2">
