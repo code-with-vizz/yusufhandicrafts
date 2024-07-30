@@ -27,8 +27,8 @@ const Rooms = () => {
           loop
           muted
         ></video>
-
-        </div>
+       
+      </div>
       </div>
       <div className="container mx-auto p-4 text-[#1d1d1b]">
         <h1 className="text-2xl md:text-3xl font-bold text-center mb-8 text-[#1d1d1b]">Personalized Iron Furniture Solutions</h1>
