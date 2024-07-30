@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between p-4 shadow-md px-4 md:px-14">
       <div className="flex items-center space-x-6">
-        <img src={logo} alt="Logo" className="h-10 w-auto " /> {/* Responsive logo */}
+        <a src={logo} alt="Logo" className="h-10 w-auto " href="/home"></a> {/* Responsive logo */}
       </div>
       <div className="flex items-center space-x-6 text-zinc-800 md:flex md:space-x-6">
         <FaBars className="text-xl cursor-pointer font-normal md:hidden" onClick={toggleMobileMenu} />
